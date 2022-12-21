@@ -2,8 +2,7 @@ package aplicativos.Registro;
 
 public class Piloto extends Pessoa {
     private String breve;
-    private int matricula;
-    
+    private int matricula;    
     public String getBreve() {
         return breve;
     }
@@ -16,7 +15,4 @@ public class Piloto extends Pessoa {
     public void setMatricula(int matricula) {
         this.matricula = matricula;
     }
-
-    
-    
 }
